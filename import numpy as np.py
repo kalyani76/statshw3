@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from statsmodels.distributions.empirical_distribution import ECDF
 
 # Load the earthquake data (replace 'your_data_file.csv' with the actual data file)
-data = np.genfromtxt('/Users/kalyanitidke/Downloads/fijiquakes_data.csv', delimiter=',')
+data = np.genfromtxt('fijiquakes_data.csv', delimiter=',')
 
 # Step 1: Estimate the empirical CDF
 ecdf = ECDF(data)
